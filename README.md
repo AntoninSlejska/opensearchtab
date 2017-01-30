@@ -4,4 +4,4 @@ The 'Tab to Search' feature is described in the article <a href="http://www.dani
 
 You can test the module on a test site, by writing 'drupal.slejska.de test' in your Chrome address bar.
 
-You can find the module also on <a href='https://www.drupal.org/node/2847577'>Drupal website</a>.
+You can find the module also on Drupal website as a <a href='https://www.drupal.org/node/2847577'>sandbox project</a>.
