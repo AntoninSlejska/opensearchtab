@@ -1,0 +1,8 @@
+opensearchtab.opensearchdescription:
+  path: /opensearchdescription
+  defaults:
+    _controller: '\Drupal\opensearchtab\Controller\OpenSearchDescriptionController::content'
+    _title: 'Open Search Description'
+  requirements:
+    _permissions: 'access content'
+    _access: 'TRUE'
