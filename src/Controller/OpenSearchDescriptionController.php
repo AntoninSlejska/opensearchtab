@@ -1,9 +1,5 @@
 <?php
 
-/**
- * Contains \Drupal\opensearchtab\Controller\OpenSearchDescriptionController class.
- */
-
 namespace Drupal\opensearchtab\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -11,8 +7,7 @@ use Symfony\Component\HttpFoundation\Response;
 /**
  * OpenSearchDescriptionController .
  */
-class OpenSearchDescriptionController
-{
+class OpenSearchDescriptionController {
 
   /**
    * {@inheritdoc}
