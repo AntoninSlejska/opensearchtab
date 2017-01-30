@@ -4,4 +4,6 @@ The 'Tab to Search' feature is described in the article <a href="http://www.dani
 
 You can test the module on a test site, by writing 'drupal.slejska.de test' in your Chrome address bar.
 
-You can find the module also on the Drupal website as <a href='https://www.drupal.org/node/2847577'>a sandbox project</a>.
+The module is published as:
+ - <a href='https://www.drupal.org/node/2847577'>Drupal sandbox project</a>
+ - <a href='https://github.com/AntoninSlejska/opensearchtab'>GitHub repository</a>
