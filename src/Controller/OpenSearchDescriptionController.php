@@ -1,22 +1,22 @@
 <?php
 
 /**
-* Contains \Drupal\opensearchtab\Controller\OpenSearchDescriptionController class.
-*/
+ * Contains \Drupal\opensearchtab\Controller\OpenSearchDescriptionController class.
+ */
 
 namespace Drupal\opensearchtab\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
 /**
-* OpenSearchDescriptionController .
-*/
+ * OpenSearchDescriptionController .
+ */
 class OpenSearchDescriptionController
 {
 
   /**
-  * {@inheritdoc}
-  */
+   * {@inheritdoc}
+   */
   public function content() {
     // Prepare variables for the XML content.
     $config = \Drupal::config('system.site');

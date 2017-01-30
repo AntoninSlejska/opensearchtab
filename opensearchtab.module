@@ -10,17 +10,17 @@
  *
  * @inheritdoc
  */
- function opensearchtab_page_attachments(array &$page) {
+function opensearchtab_page_attachments(array &$page) {
 
-   if (\Drupal::service('path.matcher')->isFrontPage()) {
-     $link = [
-       '#tag' => 'link',
-       '#attributes' => [
-         'type' => 'application/opensearchdescription+xml',
-         'rel' => 'search',
-         'href' => \Drupal::request()->getSchemeAndHttpHost() . '/opensearchdescription',
-       ],
-     ];
-     $page['#attached']['html_head'][] = [$link, 'link'];
-   }
- }
+  if (\Drupal::service('path.matcher')->isFrontPage()) {
+    $link = [
+      '#tag' => 'link',
+      '#attributes' => [
+        'type' => 'application/opensearchdescription+xml',
+        'rel' => 'search',
+        'href' => \Drupal::request()->getSchemeAndHttpHost() . '/opensearchdescription',
+      ],
+    ];
+    $page['#attached']['html_head'][] = [$link, 'link'];
+  }
+}
