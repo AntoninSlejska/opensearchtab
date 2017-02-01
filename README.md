@@ -7,3 +7,5 @@ You can test the module on a test site, by writing 'drupal.slejska.de test' in y
 The module is published as:
  - <a href='https://www.drupal.org/node/2847577'>Drupal sandbox project</a>
  - <a href='https://github.com/AntoninSlejska/opensearchtab'>GitHub repository</a>
+
+An application for full Drupal project was <a href='https://www.drupal.org/node/2847717'>submitted</a>. The project application process will take circa one year, but you can fork the module or dowload a <a href='https://github.com/AntoninSlejska/opensearchtab/releases'>release</a> on GitHub.
