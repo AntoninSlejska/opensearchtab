@@ -6,7 +6,7 @@
  */
 
 /**
- * Implements hook_page_attachments(array &$page).
+ * Implements hook_page_attachments().
  *
  * @inheritdoc
  */
