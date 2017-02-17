@@ -6,3 +6,12 @@ opensearchtab.opensearchdescription:
   requirements:
     _permissions: 'access content'
     _access: 'TRUE'
+
+opensearchtab.form:
+  path: /admin/config/search/opensearchtab
+  defaults:
+    _form: '\Drupal\opensearchtab\Form\OpenSearchSettingsForm'
+    _title: 'Open Search Tab Settings'
+  requirements:
+    _permissions: 'administer site configuration'
+    _access: 'TRUE'

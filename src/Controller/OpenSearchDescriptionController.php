@@ -15,8 +15,9 @@ class OpenSearchDescriptionController {
   public function content() {
     // Prepare variables for the XML content.
     $config = \Drupal::config('system.site');
-    $short_name = !empty($config->get('name')) ? $config->get('name') : 'Drupal site';
-    $description = !empty($config->get('slogan')) ? $config->get('slogan') : 'Search the site';
+    $ost_config = \Drupal::config('opensearchtab.settings');
+    $short_name = !empty($ost_config->get('shortname')) ? $ost_config->get('shortname') : (!empty($config->get('name')) ? $config->get('name') : 'Drupal site');
+    $description = !empty($ost_config->get('description')) ? $ost_config->get('description') : (!empty($config->get('slogan')) ? $config->get('slogan') : 'Search the site');
     $template = \Drupal::request()->getSchemeAndHttpHost() . '/search/node?keys={searchTerms}';
 
     // Define the XML content.
