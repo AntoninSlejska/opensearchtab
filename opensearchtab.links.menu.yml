@@ -1,0 +1,6 @@
+opensearchtab.admin:
+  title: 'Open search tab'
+  description: 'Change short name and description used by Open Search.'
+  parent: system.admin_config_search
+  route_name: opensearchtab.form
+  weight: 100
