@@ -1,10 +1,4 @@
 <?php
-
-/**
- * @file
- * Contains \Drupal\mymodule\Unit.
- */
-
 namespace Drupal\mymodule;
 
 use Drupal\Core\Plugin\PluginBase;
