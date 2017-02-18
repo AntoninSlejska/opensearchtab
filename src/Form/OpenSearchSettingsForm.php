@@ -52,13 +52,13 @@ class OpenSearchSettingsForm extends ConfigFormBase {
   public function validateForm(array &$form, FormStateInterface $form_state) {
     if (!$form_state->isValueEmpty('opensearchtab_shortname')) {
       if (strlen($form_state->getValue('opensearchtab_shortname')) < 3) {
-        $form_state->setErrorByName('opensearchtab_shortname', t ('Short name is less than 3 characters'));
+        $form_state->setErrorByName('opensearchtab_shortname', t('Short name is less than 3 characters'));
       }
     }
 
     if (!$form_state->isValueEmpty('opensearchtab_description')) {
       if (strlen($form_state->getValue('opensearchtab_description')) < 10) {
-        $form_state->setErrorByName('opensearchtab_description', t ('Short name is less than 10 characters'));
+        $form_state->setErrorByName('opensearchtab_description', t('Short name is less than 10 characters'));
       }
     }
   }
