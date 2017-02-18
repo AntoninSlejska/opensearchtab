@@ -1,4 +1,5 @@
 <?php
+
 namespace Drupal\mymodule;
 
 use Drupal\Core\Plugin\PluginBase;
