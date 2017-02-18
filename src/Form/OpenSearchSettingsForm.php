@@ -1,10 +1,5 @@
 <?php
 
-/**
- * @file
- * Contains \Drupal\opensearchtab\Form\OpenSearchSettingsForm.
- **/
-
 namespace Drupal\opensearchtab\Form;
 
 use Drupal\Core\Form\ConfigFormBase;
@@ -26,7 +21,7 @@ class OpenSearchSettingsForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   protected function getEditableConfigNames() {
-      return ['opensearchtab.settings'];
+    return ['opensearchtab.settings'];
   }
 
   /**
@@ -78,4 +73,5 @@ class OpenSearchSettingsForm extends ConfigFormBase {
       ->set('description', $form_state->getValue('opensearchtab_description'))
       ->save();
   }
+
 }
