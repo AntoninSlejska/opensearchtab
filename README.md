@@ -25,7 +25,7 @@ You can test the module on a test site:
 
  1. Visit the [test website](https://drupal.slejska.de) with Chrome.
  2. After that you should find a new search engine 'Test OTS' in 'Chrome search
- settings / Other search engines' (chrome://settings/searchEngines).
+    settings / Other search engines' (chrome://settings/searchEngines).
  3. Open a new tab.
  4. Write 'drupal.slejska.de test' in your Chrome address bar.
 
@@ -40,10 +40,10 @@ some time, but you can fork the module or download a [release]
 (https://github.com/AntoninSlejska/opensearchtab/releases) on GitHub.
 
  * For a full description of the module, visit [the project page]
-(https://www.drupal.org/node/2847577).
+   (https://www.drupal.org/node/2847577).
 
  * To submit bug reports and feature suggestions, or to track changes, visit
-[the issue page](https://www.drupal.org/project/issues/2847577).
+   [the issue page](https://www.drupal.org/project/issues/2847577).
 
 
 REQUIREMENTS
@@ -62,9 +62,9 @@ INSTALLATION
 ------------
 
  * Install as you would normally install a contributed Drupal module. See
-[documentation]
-(https://www.drupal.org/documentation/install/modules-themes/modules-8) for
-further information.
+   [documentation]
+   (https://www.drupal.org/documentation/install/modules-themes/modules-8) for
+   further information.
 
 CONFIGURATION
 -------------
