@@ -32,11 +32,11 @@ You can test the module on a test site:
 The module is published as:
 
  * [Drupal sandbox project](https://www.drupal.org/node/2847577)
- * [GitHub repository](https://github.com/AntoninSlejska/opensearchtab-drupal8)
+ * [GitHub repository](https://github.com/AntoninSlejska/opensearchtab)
 
 An application for full Drupal project was [submitted]
-(https://www.drupal.org/node/2847717). The project application process will take
-some time, but you can fork the module or download a [release]
+(https://www.drupal.org/node/2847717). The project application process will
+take some time, but you can fork the module or download a [release]
 (https://github.com/AntoninSlejska/opensearchtab/releases) on GitHub.
 
  * For a full description of the module, visit [the project page]

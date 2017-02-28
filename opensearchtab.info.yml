@@ -1,7 +1,7 @@
 name: 'OpenSearch: Tab to Search'
 type: module
 description: 'The module activates Google Chrome tab to search your Drupal site'
-version: 0.2.0
+version: 0.2.3
 package: Custom
 core: 8.x
 configure: opensearchtab.form
